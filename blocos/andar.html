@@ -1,0 +1,39 @@
+<section class="blk-andar" id="andar">
+  <div class="wrap blk-andar__in">
+    <figure class="blk-andar__foto" data-reveal>
+      <!--foto:midia/recepcao.jpg|Sala de espera da Dental Center, com poltronas claras e televisão na parede-->
+    </figure>
+    <div class="blk-andar__txt">
+      <p class="blk-andar__eyebrow" data-reveal>Rua General Vitorino, 305</p>
+      <h2 class="blk-andar__titulo" data-reveal><span class="blk-andar__sete" data-parallax>7º</span> andar, sete dentistas</h2>
+      <p class="blk-andar__lead" data-acende>Implante pede prótese, aparelho pede acompanhamento, harmonização pede avaliação do sorriso. Na Dental Center as áreas ficam no mesmo endereço, e o paciente não precisa montar o próprio time de especialistas pela cidade.</p>
+      <ul class="blk-andar__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-andar__ico"><!--icone:dente--></span><div><strong>Implantes e prótese</strong><p>Dr. Diego Avila Scheunemann, implantodontista, e Dra. Caroline Klabunde, prótese dentária.</p></div></li>
+        <li data-reveal style="--d:90ms"><span class="blk-andar__ico"><!--icone:dente--></span><div><strong>Ortodontia</strong><p>Dra. Gabriela Bertoja e Dra. Vanessa G. Santana.</p></div></li>
+        <li data-reveal style="--d:180ms"><span class="blk-andar__ico"><!--icone:rosto--></span><div><strong>Harmonização e clínica geral</strong><p>Dr. Leandro Moraes Gianichini e Dra. Vanina Menezes.</p></div></li>
+        <li data-reveal style="--d:270ms"><span class="blk-andar__ico"><!--icone:check--></span><div><strong>Endodontia</strong><p>Dra. Laura, para tratamento de canal.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-andar{padding-block:var(--sp-section);background:var(--bg)}
+.blk-andar__in{display:grid;gap:var(--sp-5)}
+.blk-andar__foto{margin:0;overflow:hidden;border-radius:var(--r-lg)}
+.blk-andar__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.blk-andar__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand-2)}
+.blk-andar__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-andar__sete{display:inline-block;color:var(--brand)}
+.blk-andar__lead{margin:var(--sp-3) 0 0;max-width:38rem;font-size:1.1rem;line-height:1.65;color:var(--ink)}
+.blk-andar__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-andar__lista li{display:grid;grid-template-columns:2.4rem 1fr;gap:var(--sp-3);align-items:start;padding-top:var(--sp-3);border-top:1px solid var(--line)}
+.blk-andar__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-andar__ico svg{width:100%;height:100%}
+.blk-andar__lista strong{display:block;font-family:var(--f-display);font-size:1.2rem;font-weight:600;color:var(--ink)}
+.blk-andar__lista p{margin:.25rem 0 0;line-height:1.55;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-andar__in{grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-andar__foto img{aspect-ratio:4/5}
+}
+</style>

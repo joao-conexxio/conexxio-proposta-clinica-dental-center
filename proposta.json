@@ -1,0 +1,224 @@
+{
+  "slug": "clinica-dental-center",
+  "negocio": {
+    "nome": "Dental Center",
+    "logo": "brand/logo.png",
+    "whatsapp": "555132251122",
+    "telefone": "(51) 3225-1122",
+    "unidades": [
+      {
+        "bairro": "Centro Histórico · Porto Alegre",
+        "endereco": "R. Gen. Vitorino, 305, 7º andar – Centro Histórico, Porto Alegre – RS",
+        "telefone": "(51) 3225-1122"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2E766D",
+    "brand2": "#235C55",
+    "ink": "#282828",
+    "bg": "#FFFFFF",
+    "pulse": "#34AF23",
+    "radius": "24px",
+    "registro": "editorial",
+    "fontDisplay": "Montserrat",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Equipe", "href": "#andar" },
+          { "texto": "Como funciona", "href": "#como-funciona" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Centro Histórico · Porto Alegre",
+        "h1": "Seu sorriso, num só andar",
+        "lead": "Sete dentistas, de implantes a harmonização facial, no 7º andar da Rua General Vitorino. Clínica particular com mais de 15 anos de atendimento.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Agende sua avaliação"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Implantes",
+          "Protocolo fixo",
+          "Invisalign",
+          "Aparelhos ortodônticos",
+          "Lentes de contato dental",
+          "Facetas",
+          "Clareamento",
+          "Harmonização facial",
+          "Bichectomia"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "gigante",
+      "data": {
+        "titulo": "A Dental Center em números",
+        "itens": [
+          { "valor": "4,9", "rotulo": "de nota média no Google" },
+          { "valor": "+300", "rotulo": "avaliações de pacientes" },
+          { "valor": "+15", "rotulo": "anos de atendimento" },
+          { "valor": "7", "rotulo": "dentistas, cada um na sua área" }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "Mais de 15 anos cuidando de sorrisos no Centro Histórico.",
+        "autor": "Dental Center · Porto Alegre",
+        "texto": [
+          "A Dental Center é uma clínica particular de odontologia no 7º andar da Rua General Vitorino. Ortodontia, implantes, prótese, endodontia e harmonização facial funcionam sob o mesmo teto.",
+          "A nota 4,9 em mais de 300 avaliações no Google é a prova que o paciente confere antes de ligar. Por isso ela abre esta página, e não o rodapé."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "O que o paciente mais procura, em linguagem direta e sem promessa de resultado.",
+        "itens": [
+          {
+            "nome": "Implantes e protocolos fixos",
+            "descricao": "Para repor um dente ou arcadas inteiras. O implante e a prótese são planejados juntos, por quem opera e por quem faz a prótese.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Ortodontia e Invisalign",
+            "descricao": "Aparelhos ortodônticos e alinhadores transparentes, para quem quer corrigir a posição dos dentes e a mordida.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Lentes de contato dental e facetas",
+            "descricao": "Para mudar forma, tamanho e cor do sorriso com o mínimo de desgaste que o caso permitir. A indicação vem depois da avaliação.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Clareamento dental",
+            "descricao": "Para devolver brilho ao sorriso. A avaliação define se o clareamento é o caminho certo para o seu caso.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Harmonização facial e bichectomia",
+            "descricao": "Procedimentos de estética do rosto feitos por dentistas habilitados, na mesma clínica onde você trata o sorriso.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Cirurgias dentárias",
+            "descricao": "Extrações, tratamentos de canal e cirurgias indicadas durante o plano de tratamento, sem trocar de endereço.",
+            "icone": "estetoscopio"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/andar.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Da primeira mensagem ao retorno",
+        "lead": "Sem formulário comprido e sem esperar ligação.",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "texto": "Conte o que você procura: implante, aparelho, clareamento, dor. A recepção indica o profissional e o horário.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "O dentista examina, explica as opções e monta o plano. Você sai sabendo o que será feito e em que ordem.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Tratamento",
+            "texto": "As etapas acontecem no mesmo endereço, mesmo quando o caso envolve mais de um especialista.",
+            "icone": "dente"
+          },
+          {
+            "titulo": "Retorno e manutenção",
+            "texto": "Implante, aparelho e protocolo pedem acompanhamento. A próxima consulta sai combinada, para você não precisar lembrar.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Como agendo uma avaliação?",
+            "r": "Pelo WhatsApp ou pelo telefone (51) 3225-1122. Conte o motivo da consulta e a recepção indica o profissional."
+          },
+          {
+            "p": "A clínica atende por convênio?",
+            "r": "A Dental Center é uma clínica particular. Formas de pagamento de cada tratamento são combinadas na avaliação."
+          },
+          {
+            "p": "Vocês fazem Invisalign e lentes de contato dental?",
+            "r": "Sim. Os dois estão entre os tratamentos da clínica, junto com aparelhos ortodônticos, facetas e clareamento."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "Na Rua General Vitorino, 305, 7º andar, no Centro Histórico de Porto Alegre."
+          },
+          {
+            "p": "A clínica faz harmonização facial?",
+            "r": "Sim, com dentistas da equipe. Bichectomia também está entre os procedimentos oferecidos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Centro Histórico, 7º andar",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que você procura e marque sua avaliação",
+        "lead": "Mande uma mensagem com o motivo da consulta. A recepção indica o profissional e o horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Proposta de site feita a partir de informações públicas da Dental Center. Não é o site oficial da clínica. Resultados de tratamentos variam de paciente para paciente."
+      }
+    }
+  ]
+}
